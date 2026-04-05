@@ -1,5 +1,5 @@
 import streamlit as st
-import pickle
+import joblib
 import numpy as np
 
 # Page config
@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6, p, label {
 """, unsafe_allow_html=True)
 
 # ====== Load Best Model ======
-model = pickle.load(open("rf_model.pkl", "rb"))
+model = joblib.load("rf_model.pkl")
 
 # ====== Title ======
 st.title("🏠 House Price Prediction App")
