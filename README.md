@@ -12,6 +12,15 @@
 
 ---
 
+## 📊 Model Performance
+
+- 📈 R² Score: **0.82**
+- 📉 Mean Absolute Error (MAE): ~51,000
+
+💡 The Random Forest model achieved strong performance, explaining around **82% of the variance** in housing prices.
+
+---
+
 ## 📌 Project Overview
 This is an end-to-end Machine Learning project that predicts house prices based on user input features.  
 It covers data preprocessing, model training, and deployment using Streamlit.
